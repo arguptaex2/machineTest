@@ -47,7 +47,7 @@ app.post('/homes', cors(), (req, res) => {
 
 app.post('/uploadFile', (req, res) => {
     var form = new formidable.IncomingForm();
-
+    form.maxFileSize = 2000 * 1024 * 1024;
     form.parse(req);
 
     form.on('fileBegin', function (name, file) {
