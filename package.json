@@ -1,0 +1,21 @@
+{
+  "name": "ppo",
+  "version": "1.0.0",
+  "description": "arup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arup",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "formidable": "^1.2.1",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.1.7",
+    "mongoose-gridfs": "^0.4.1",
+    "request": "^2.87.0"
+  }
+}
